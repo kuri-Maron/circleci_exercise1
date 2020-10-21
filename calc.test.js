@@ -6,5 +6,5 @@ test("Sum test", () => {
 });
 
 test("Sum test failed", () => {
-  expect(calc.sum(1, 3)).not.toBe(5);
+  expect(calc.sum(1, 3)).not.toBe(4);
 });
