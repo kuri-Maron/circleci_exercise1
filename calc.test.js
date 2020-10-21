@@ -1,5 +1,6 @@
-import { sum } from "./calc.js";
+// import { sum } from "./calc.js";
+const calc = require("./calc2");
 
 test("Sum test", () => {
-  expect(sum(1, 3)).toBe(3);
+  expect(calc.sum(1, 3)).toBe(4);
 });
